@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+
+}
+.announcment_bar{background: linear-gradient(45deg, #5c0c27, transparent);text-align: center;padding: 2px;}
+.announcment_bar {
+    background: black;
+    text-align: center;
+    padding: 2px;
+}
+.announcment_bar p {
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    justify-content: center;
+}
+.announcment_bar p img{
+    display: inline-block;
+    max-width: 79px;
+}
+.announcment_bar p a{
+    padding: 6px 10px;
+    display: inline-block;
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+    font-weight: 500;
+}
+.announcment_bar p a:hover{
+    background:blue;
+    color: white;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #00000075;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    max-width: 100%;
+}
+
+nav{
+    flex-basis: 80%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li{}
+nav ul li a{
+    color: black;
+    font-size: 20px;
+    padding: 7px 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 800;
+    transition-duration: 0.4s;
+}
+nav ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.product_section {
+    background: url("https://media.istockphoto.com/id/1134703571/photo/front-view-of-fictitious-car.jpg?b=1&s=170667a&w=0&k=20&c=Nz0-eUCs_FhPYW96j9f7PFOg9RiFvpDIIc6o9_pijhs=");
+    background-size: cover;
+}
+.product_box {
+    max-width: 100%;
+    margin: auto;
+    box-shadow: 0px 0px 35px 0px #1a070759;
+    padding: 10PX;
+    border-radius: 10px;
+    transition-duration: .3s;
+    box-sizing: border-box;
+}
+.product_box:hover{
+    box-shadow: 0px 0px 0px 0px #1a070759;
+}
+.product_box > img {
+    border-radius: 10px;
+    max-width: 100%;
+    filter: grayscale(70%);
+    transition-duration: 0.3s;
+    height: 210px;
+    width: 100%;
+    object-fit: cover;
+}
+.product_box img:hover {
+    filter: grayscale(0%);
+}
+.product_box h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #f450ff;
+}
+.product_box h2{
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: blue;
+}
+.product_box h2 s{
+    font-size: 22px;
+    font-weight: 300;
+    margin-left: 15px;
+}
+.product_box p{
+    font-size: 15px;
+    line-height: 1.4em;
+    margin-top: 10px;
+    color: #a12815;
+}
+
+.product_box ul{
+   padding-left: 30px;
+   margin-bottom: 10px;
+}
+.product_box ul li{
+     font-size: 15px;
+     line-height: 1.4em;
+     color: rebeccapurple;
+}
+.product_box ul li strong{}
+.btn{
+    background: #782121;
+    color: black;
+    padding: 10px 40px;
+    width: 100%;
+    border: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+}
+.btn:hover {
+    background: blue;
+    color: white;
+}
+.btn img {
+    width: 20px;
+}
+.variable{
+    margin: 10px 0;
+}
+.version{}
+.version button{
+    border: 0;
+    padding: 3px 15px;
+    background: aquamarine;
+    color: #973411;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+.version button:hover{
+    background: purple;
+    color: white;
+
+}
+.type{}
+.type button{
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 5px;
+    background: #100302;
+}
+.type button >img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+.column{
+    flex-basis: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
